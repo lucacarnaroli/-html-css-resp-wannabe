@@ -75,7 +75,12 @@ img{
 }
 #lezioni .row > .left, #lezioni .row > .right{
   width: 100%;
-  float: none;
+  float: left;
+
+}
+#lezioni .row img {
+  float:left;
+  margin: 8px;
 }
 img {
    width: 30px;
@@ -93,10 +98,17 @@ h3 {
 }
 #steps .row > .left,
 #steps .row > .central,
-#steps .row > .right{
-  float: none;
+#steps .row > .right {
+  float: right;
   width: 100%;
 }
+#steps .row > .left img,
+#steps .row > .central img,
+#steps .row > .right img {
+  float: left;
+  margin:8px;
+}
+
 #why .row > .first,
 #why .row > .second,
 #why .row > .third {
